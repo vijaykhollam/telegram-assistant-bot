@@ -8,4 +8,4 @@ Steps to set up
 
 2. Configure .env
 
-3. node bot.js
+3. node assistant.js
