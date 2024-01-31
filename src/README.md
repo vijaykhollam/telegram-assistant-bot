@@ -1,8 +1,10 @@
 # Telegrambot FormFiller Assistant
 
-This bot facilitates the insertion of data into a preconfigured Google Sheet directly from a Telegram bot.
+This bot streamlines the process of inputting data into a predefined Google Sheet directly through a Telegram bot.
 
-Steps to set up
+The bot sequentially queries information from the first row of the Google Sheet and records the responses back into the same sheet.
+
+Steps : 
 
 1. npm install
 
