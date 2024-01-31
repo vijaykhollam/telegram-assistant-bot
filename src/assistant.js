@@ -258,7 +258,8 @@ async function fetchQuestion(currentQuestionIndex,language) {
     //Chose Hindi language question from google sheet
     else if(language == 'hi'){
       sheetRange = `${process.env.GOOGLE_SHEET_NAME}!A2:Z2`
-    }
+    } 
+    
 
     const response = await sheetsAPI.spreadsheets.values.get({
       auth,
